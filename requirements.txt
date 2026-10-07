@@ -1,0 +1,14 @@
+# Aula 2 — Labs ADK
+# [a2a] traz o a2a-sdk (lab 5); nas versões 2.x do ADK ele não vem por padrão.
+google-adk[a2a]>=1.0.0
+google-genai>=1.0.0
+python-dotenv>=1.0.0
+
+# Lab 4 (MCP): cliente MCP em Python (o servidor roda em Node via npx)
+mcp>=1.0.0
+
+# Lab 5 (A2A) sobe um servidor:
+uvicorn>=0.30.0
+
+# Lab 4 (MCP) usa um servidor MCP em Node via npx:
+#   npm não é pacote pip — instale Node.js separadamente (https://nodejs.org)
